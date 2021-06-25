@@ -1,0 +1,30 @@
+body{
+    width:100%;
+    padding:0%;
+    margin: 0%;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Header (EnvatoMarket) */
+.header {
+    height: 3rem;
+    background-color: #262626;
+    z-index: 100;
+    margin-bottom: 1px;
+}
+.left_side_of_header{
+    padding-bottom: 5px;
+}
+
+.btn{
+    color: white !important;
+    background-color:#82b440 !important; 
+    box-shadow: 0 2px 0 #6f9a37;
+    padding:2px 14px;
+}
+.btn:hover{
+    color: white !important;
+    background-color:#638a30 !important; 
+    cursor: pointer;
+}
