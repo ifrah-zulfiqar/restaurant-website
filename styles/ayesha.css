@@ -1,0 +1,242 @@
+/* Blog Feed Section */
+#blog-feed{
+    margin: 7rem;
+}
+.blog-head{
+    color:#b7b095;
+    font-size: 2.1rem;
+    font-weight: 600;
+    font-family:var(--special-ff);
+}
+.blog-tag{
+    font-size:3rem;
+    color:rgb(33, 33, 33);
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    font-weight: 700;
+    padding-right:25rem;
+}
+.img-blog{
+    height:22rem;
+}
+.blog-mid{
+    margin:2rem 0;
+}
+.blog-mid h5{
+    font-size: 0.9rem;
+    color:#b7b095;
+    cursor: pointer;
+}
+.blog-mid h5:hover{
+    color:rgb(33, 33, 33);
+    cursor: pointer;
+}
+.blog-mid a{
+    color: rgb(33, 33, 33);
+    font-size: 1.7rem;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    text-decoration:none ;
+}
+.blog-mid a:hover{
+    color: #b7b095;
+}
+.bg-dark{
+    background-color:rgb(33, 33, 33) !important;
+}
+.bg-dark p{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    color:#b7b095;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+#Email{
+    width:20rem;
+    margin-left: 1rem;
+    height:4rem;
+    padding-left: 1rem;
+    color: #b7b095;
+}
+.btn-subs{
+    margin-left:4rem;
+    font-size: 1.1rem;
+    color:#b7b095;
+    text-decoration: none;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #b7b095;
+}
+.btn-subs:hover{
+    text-decoration: none;
+    color: #b7b095;
+    border:none;
+}
+#CheckBox{
+    margin-left: 1rem;
+}
+#spanner{
+    color:white;
+    cursor: pointer;
+}
+#spanner:hover{
+    color:#b7b095;
+    cursor: pointer;
+}
+.img-blog-2{
+    width:21rem;
+}
+
+/* Advertisement Section */
+
+.image-size-3{
+    width:84.2rem;
+    height: 40rem;
+}
+.context-line{
+    margin-top:-25rem;
+    padding-left: 8rem;
+    padding-right: 35rem;
+}
+.context-line h2{
+    color:white;
+    font-weight:700;
+    font-size:3rem;
+    line-height: 4rem;
+    letter-spacing: 1px;
+}
+.context-line h5{
+    color:#b7b095;
+    font-family: var(--special-ff);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/* Team Section */
+#team-info{
+    margin-top:5.6rem;
+}
+.team-left{
+    padding:0 2rem 7rem 7rem;
+}
+.team-tag{
+    color:#b7b095;
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding-top:7rem;
+    font-family: var(--special-ff);
+}
+.Biggest-text{
+    color:rgb(55, 55, 55);
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding-right:11rem;
+}
+.para-team{
+    padding-top: 1rem;
+    padding-right: 11rem;
+    color:#96917e;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.team-btn{
+    color:rgb(55, 55, 55);
+    font-size: 0.9rem;
+    font-weight: 800;
+    border-bottom: 1px solid rgb(55, 55, 55);
+    padding-bottom: 10px;
+}
+.team-btn:hover{
+    color:rgb(55, 55, 55);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.team-right{
+    padding:0 3rem 7rem 2rem;
+    margin-left: -1rem;
+}
+.team-right h3{
+    font-size: 1.2;
+    color: rgb(55, 55, 55);
+}
+.team-right h5{
+    font-size: 0.9rem;
+    color: #b7b095;
+    padding-bottom: 0.9rem;
+}
+.team-right p{
+    color:#b7b095;
+    font-weight: 500;
+}
+.social-2{
+    color: rgb(36, 34, 34);
+    font-size: 1.2rem;
+}
+.social-2 a{
+    text-decoration: none;
+}
+.social-2 .fab{
+    background-color: #b7b095;
+    color:white;
+    padding:7px;
+    border-radius: 3rem;
+}
+.chef-img{
+    height:15rem;
+    padding-left:4rem;
+}
+
+/* Gallery Section */
+#gallery{
+    padding: 0;
+    background-image: url(/imgs/bg-2.webp);
+}
+.image-size-gallery{
+    width:84.2rem;
+    height: 30rem;
+    border: 1px solid black;
+}
+.gallery-texts{
+    margin: -23rem 0 6rem 25rem;
+}
+.gallery-texts h3{
+    color:#b7b095;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--special-ff);
+    margin-left: 12rem;
+    padding-bottom: 3rem;
+}
+.gallery-texts p{
+    color:white;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    padding-left: 1.5rem;
+}
+.gallery-slides{
+    margin-left:10px;
+}
+.gallery-imgs{
+    width:24rem;
+    height:20rem;
+}
+.white-line{
+    margin: -7rem 0 0 2rem;
+}
+.white-line p{
+    color:white;
+    font-weight: 400;
+}
+.white-line .fas{
+    color:white;
+    margin-left: -6rem;
+    text-align: center;
+    background-color: #b7b095;
+    border-radius: 50%;
+    padding:1rem;
+}
+#gallery .carousel-indicators{
+    margin-bottom:-5rem !important;
+}
