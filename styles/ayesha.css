@@ -155,7 +155,11 @@
 }
 .team-right{
     padding:0 3rem 7rem 2rem;
-    margin-left: -1rem;
+    margin-bottom: 3px;
+}
+.bg-team{
+    background-image: url(/imgs/bg-2.webp);
+    object-fit: fill;
 }
 .team-right h3{
     font-size: 1.2;
@@ -196,6 +200,8 @@
 .image-size-gallery{
     width:84.2rem;
     height: 30rem;
+    /* background-size: contain; */
+    object-fit: fill;
     border: 1px solid black;
 }
 .gallery-texts{
