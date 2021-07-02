@@ -6,7 +6,7 @@
 /* Home */
 .image-size{
     width:84.2rem;
-    margin-top: 2.8rem;
+    /* margin-top: 2.8rem; */
     border: 1px solid black;
 }
 
@@ -192,6 +192,7 @@ body > section > div > div.col-lg-6.col-md-6.col-12.mt-5 > ul > li:nth-child(n):
     flex-direction: column;
     margin-left: -3rem;
 }
+
 .list-edit li{
     font-size: 1.1rem;
     padding-top: 0.6rem;
@@ -209,14 +210,29 @@ body > section > div > div.col-lg-6.col-md-6.col-12.mt-5 > ul > li:nth-child(n):
     padding-bottom: 5px;
     border-bottom: 1px solid rgb(33, 33, 33);
 }
+.Menu-top{
+    display: flex;
+    flex-direction: row;
+}
 .Menu-Head{
     font-size: 3rem;
     color: rgb(33, 33, 33);
     padding-top:-2rem;
 }
+.menu-text{
+    padding:0 9rem 0 12.5rem;
+    margin-top: -2.6rem;
+}
 .image-fluid-2{
     height:6rem;
     padding:0;
+}
+.price{
+    margin-left: 10rem;
+}
+.menu-text{
+    padding:0 9rem 0 12.5rem;
+    margin-top: -2.6rem;
 }
 .name{
     color: rgb(33, 33, 33);
@@ -243,7 +259,10 @@ body > section > div > div.col-lg-6.col-md-6.col-12.mt-5 > ul > li:nth-child(n):
     margin-top: 2.8rem;
     border: 1px solid black;
 }
-
+.testimonials-tag{
+    padding-left:12rem;
+    margin-top: -25rem;
+}
 #Testimonials h3{
     color:#b7b095;
     font-family: var(--special-ff);
